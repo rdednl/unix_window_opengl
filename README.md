@@ -5,7 +5,7 @@ You can run the simple simulation example (`sim.py`) in two modes.
 ## User-controlled mode
 
 ```
-python3 sim.py
+python3 user.py
 ```
 
 This mode consists in using keyboard commands to control the simulation. It is a very simple simulation.
@@ -16,7 +16,7 @@ This mode works both in Mac and Linux. (ie. the window opens and we are able to 
 ## Automated mode
 
 ```
-python3 test.py
+python3 auto.py
 ```
 
 This mode consists in a loop that automatically controls the simulation, for 2 sequences of 200 steps each.

@@ -72,8 +72,3 @@ class SimpleSimulator:
     def __del__(self):
         if bool(glutMainLoopEvent):
             glutMainLoopEvent()
-
-if __name__ == "__main__":
-    env = SimpleSimulator()
-    glutMainLoop()
-
