@@ -40,11 +40,6 @@ class SimpleSimulator:
         ch = key.decode("utf-8")
         if ch == ' ':
             self.apply_spacebar_action()
-        elif ch == chr(27) or ch == 'q':
-            self.close()
-            sys.exit()
-        elif ch == 'r':
-            self.reset()
 
     def init_gl(self):
         # set up GLUT
